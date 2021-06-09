@@ -84,7 +84,7 @@ void _loadFormData(User user){
                 if(value==null || value.trim().isEmpty){
                    return 'Ocorreu um erro. Digite o raça do seu Pet';
                 }
-                if(value.trim().length<1000){
+                if(value.trim().length<3){
                    return 'Nome muito grande.';
                 }
                 return null;
